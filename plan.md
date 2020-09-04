@@ -1,0 +1,12 @@
+# Plan of action
+- Initialize node js project
+- Initialize first view
+- Create a room id // uniqness
+- Add ability to view own video
+- Add ability to allow others to stream their video
+- add styling
+- add ability to create msgs
+- mute button and stop button
+- screen share
+- login and multiuser
+- more coming soon...
