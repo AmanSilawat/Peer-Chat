@@ -1,0 +1,27 @@
+{
+  "name": "peer-chat",
+  "version": "1.0.0",
+  "description": "Making call between n peer. Sharing audio, video, text and screen. Making it work without internet also, for local network, (manual handshake) ...and many more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanSilawat/Peer-Chat.git"
+  },
+  "keywords": [
+    "peer to peer chat",
+    "webRTC"
+  ],
+  "author": "Aman Silawat, Mohammed Saleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanSilawat/Peer-Chat/issues"
+  },
+  "homepage": "https://github.com/AmanSilawat/Peer-Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
