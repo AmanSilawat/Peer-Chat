@@ -1,5 +1,5 @@
 # Plan of action
-- Initialize node js project
+- Initialize node js project -> DONE
 - Initialize first view
 - Create a room id // uniqness
 - Add ability to view own video
