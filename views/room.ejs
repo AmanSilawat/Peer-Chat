@@ -2,10 +2,15 @@
 <html>
 <head>
 	<title>Peer Chat</title>
+	<link href="style.css" rel="stylesheet" />
 </head>
 <body>
 	<div id="video_grid"></div>
 	<h1>Heading</h1>
+	<script>
+		let ROOMID = "<%=room_id%>";
+	</script>
+	<script src="/socket.io/socket.io.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
