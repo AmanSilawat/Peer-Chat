@@ -3,7 +3,7 @@
 - Initialize first view -> DONE
 - Create a room id // uniqness -> DONE
 - Add ability to view own video -> DONE
-- Add ability to allow others to stream their video
+- Add ability to allow others to stream their video -> DONE
 - add styling
 - add ability to create msgs
 - mute button and stop button
