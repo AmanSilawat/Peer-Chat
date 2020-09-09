@@ -2,7 +2,7 @@
   "name": "peer-chat",
   "version": "1.0.0",
   "description": "Making call between n peer. Sharing audio, video, text and screen. Making it work without internet also, for local network, (manual handshake) ...and many more",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
