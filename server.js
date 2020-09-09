@@ -5,7 +5,7 @@ const {v4: uuid} = require('uuid');
 const {ExpressPeerServer} = require("peer");
 const peer_server = ExpressPeerServer(server, {debug: true});
 
-const port = 7373;
+
 const io = require("socket.io")(server);
 
 app.use(express.static('public'));
@@ -27,9 +27,12 @@ io.on('connect', (socket)=> {
 		socket.to(ROOMID).broadcast.emit('user-connected', USERID);
 		socket.on('disconnect', ()=>{
 			socket.to(ROOMID).broadcast.emit('user-disconnected', USERID);
+		});
+		socket.on('message', (message)=>{
+			io.to(ROOMID).emit('create-message', message);
 		})
 	});
 });
 
 
-server.listen(port);
+server.listen(process.env.PORT || 3030);
